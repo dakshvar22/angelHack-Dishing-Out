@@ -1,0 +1,99 @@
+h2{
+    font-style: italic;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 2em;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.mysearch{
+position: relative;
+    top: 300px;
+
+}
+
+.content {
+	background-color: #F5F5F5;
+}
+.home-bg{
+background-image: url(back.jpg);
+/*background-repeat: repeat-x;*/
+background-color: #e4e4e4}.h-city-main {
+background-size: cover;
+padding: 100px 0 500px;
+    
+background-position: bottom center;
+    z-index: 6;}
+
+.card {
+    background:#FFF;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    padding:5px;
+    margin:15px;
+    overflow:hidden;
+    font-family:Roboto;
+}
+.card h1 {
+    margin:3px;
+    padding:10px;
+    padding-bottom:3px;
+    font-size:2em;
+    font-family:Roboto;
+}
+
+.card p {
+    margin:10px;
+    padding:10px;
+    font-size:0.5em;
+}
+.clearfix:after {
+    content: "";
+  display: table;
+  clear: both;
+}
+/* grid */
+.row {
+  margin: 0 -10px;
+  margin-bottom: 20px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding: 10px;
+}
+
+@media all and ( min-width: 600px ) {
+  
+  .col-2-3 {
+    float: left;
+    width: 66.66%;
+  }
+  .col-1-2 {
+    float: left;
+    width: 50%;
+  }
+  .col-1-3 {
+    float: left;
+    width: 33.33%;
+  }
+  .col-1-4 {
+    float: left;
+    width: 25%;
+  }
+  .col-1-8 {
+    float: left;
+    width: 12.5%;
+  }
+  .col-full {
+    float: left;
+    width: 100%;
+  }
+  
+}

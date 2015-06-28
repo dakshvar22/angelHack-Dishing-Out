@@ -1,0 +1,34 @@
+.info
+ %h1 Login Form
+ %span
+  Made with
+  %i.fa.fa-heart.animated.infinite.pulse
+  by
+  %a{:href => "http://andytran.me"} Andy Tran
+  .spoilers
+   (Swap Forms!) | (Very Cool!) | ( Alert Popup!)
+   
+.form.aniamted.bounceIn
+ .switch
+  %i.fa.fa-pencil.fa-times
+  .tooltip Click Me
+ .login
+  %h2 Login To Your Account
+  %form
+   %input{:type => "text", :placeholder => "Username"}
+   %input{:type => "password", :placeholder => "Password"}
+   %button Login
+ .register
+  %h2 Create An Account
+  .alert
+   .fa.fa-times-circle
+   There seems to be an issue.
+  %form
+   %input{:type => "text", :placeholder => "Username"}
+   %input{:type => "password", :placeholder => "Password"}
+   %input{:type => "password", :placeholder => "Confirm Password"}
+   %input{:type => "email", :placeholder => "Email Address"}
+   %input{:type => "text", :placeholder => "Birth Date (mm/dd/yy)"}
+   %button Login
+ %footer
+  %a{:href => "http://andytran.me"} Forgot Password?

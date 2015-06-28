@@ -1,0 +1,6 @@
+host: angelHack123
+name: angelHack123
+path: .
+domain: mybluemix.net
+instances: 1
+memory: 512M
